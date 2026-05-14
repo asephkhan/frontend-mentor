@@ -1,0 +1,16 @@
+
+.container {
+    display: flex;
+    flex-direction: column;    
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 20px;
+    
+    
+}
+
+.image-qr-code{
+    width: fit-content;
+    border-radius: 20px;
+    
+}
