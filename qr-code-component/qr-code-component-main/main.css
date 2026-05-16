@@ -1,16 +1,24 @@
 
+body{
+    background-color: #d5e1ef;
+}
 .container {
     display: flex;
     flex-direction: column;    
     align-items: center;
-    border: 1px solid black;
     border-radius: 20px;
+    padding: 16px;
+    width: 320px;
+    background-color: white;
+    text-align: center;
     
     
 }
 
 .image-qr-code{
-    width: fit-content;
+    width: 288px;
+    height: 288px;
     border-radius: 20px;
+    
     
 }
