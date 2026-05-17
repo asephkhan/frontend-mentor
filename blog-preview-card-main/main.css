@@ -1,0 +1,48 @@
+@font-face {
+    font-family: "Figtree";
+    src: url(./assets/fonts/static/Figtree-ExtraBold.ttf);
+    font-weight: bolder;
+    
+}
+
+:root {
+    --color-yellow: #f4d04e;
+    --color-white: #ffff;
+    --color-text-body: #6b6b6b;
+    --color-text-heading: #111111;
+    --font-size-body: 14px ;
+}
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0; 
+}
+
+body{
+    background-color: var(--color-yellow);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.blog__card{
+    width: 335px;
+    background-color: var(--color-white);
+    padding: 24px;
+    border-radius: 20px;
+}
+
+.blog__image{
+border-radius: 10px;
+}
+
+.blog__purpose{
+    color: var(--color-text-heading);
+    background-color: #f4d04e;
+    font-family: "figtree";
+    font-size: 12px;
+}
