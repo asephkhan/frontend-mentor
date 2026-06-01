@@ -71,6 +71,6 @@ body {
     text-decoration: none;
     color: var(--color-white);
     background-color: var(--color-grey--900);
-    padding: var(--spacing-150);
+    padding: var(--spacing-150) var(--spacing-300);
     margin-bottom: var(--spacing-200);
 }
