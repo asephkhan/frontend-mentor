@@ -66,7 +66,7 @@ body {
     flex-direction: column;
     min-width:100mvh;
 }
-
+/* just a small change */
 .profile__links__container__button {
     text-decoration: none;
     color: var(--color-white);
