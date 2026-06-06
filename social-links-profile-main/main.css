@@ -22,6 +22,7 @@
 *::after {    
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 } 
 
 body {
@@ -45,32 +46,42 @@ body {
     width: 88px;
     height: 88px;
     border-radius: 50%;
+    margin-bottom: var(--spacing-300);
 }
 .profile__name {
     font-family: "Inter", sans-serif;
     color: var(--color-white);
     font-size: var(--spacing-300);
+    margin-bottom: var(--spacing-50);
+
 }
 
 .profile__location {
     font-family: "Inter", sans-serif;
     color: var(--color-green);
+    margin-bottom: var(--spacing-300);
+
 }
 
 .profile__discription {
     font-family: "Inter", sans-serif;
+    font-size: 14px;
+    line-height: 150%;
     color: var(--color-white);
+    margin-bottom: var(--spacing-300);
+    padding: 0 var(--spacing-500);
+
 }
-.profile__links__container {
-    display: flex;
-    flex-direction: column;
-    min-width:100mvh;
-}
-/* just a small change */
+
 .profile__links__container__button {
+    text-align: center;
+    font-family: "Inter", sans-serif;
     text-decoration: none;
     color: var(--color-white);
-    background-color: var(--color-grey--900);
+    background-color: var(--color-grey--700);
     padding: var(--spacing-150) var(--spacing-300);
     margin-bottom: var(--spacing-200);
+    width: 100%;
+    border-radius: var(--spacing-100);
+
 }
